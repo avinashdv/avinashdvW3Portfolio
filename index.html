@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Itim|Pangolin|Raleway" rel="stylesheet">
+	<title>
+		Avinash.DV's | Portfolio
+	</title>
+
+  <style>
+		body{
+			font-size:12px;
+      margin:0;
+      padding:0;
+			font-family: Itim;
+		}
+		h2,h4{
+			font-family: "Itim", sans-serif;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<!-- Nav bar Section -->
+	<div class="w3-container w3-row-padding w3-top w3-card w3-center w3-light-grey w3-border">
+
+			<!-- It is for large and smaller devices -->
+			<div class="w3-col l4 m3 w3-panel w3-hide-medium">
+				<a href="#about" class="w3-btn w3-black w3-block logo w3-center">My Portfolio</a>
+			</div>
+
+			<!-- It is for medium devices -->
+			<div class="w3-col l4 m3 w3-panel head w3-hide-large w3-hide-small">
+				<a href="#about" class="w3-btn w3-black w3-block logo w3-center"><i class="fa fa-user w3-xxxlarge"></i></a>
+			</div>
+
+			<!-- Hiding this for smaller devices -->
+			<div class="w3-col l8 m9 w3-panel w3-hide-small">
+				<div class="w3-row w3-panel">
+					<div class="w3-col l3 m6 ">
+						<a href="#about" class="w3-btn w3-white w3-block w3-hover-black side">About me</a>
+					</div>
+					<div class="w3-col l3 m6">
+						<a href="#education" class="w3-btn w3-white w3-block w3-hover-black side">Education</a>
+					</div>
+					<div class="w3-col l3 m6">
+						<a href="#skills" class="w3-btn w3-white w3-block w3-hover-black side">Skills</a>
+					</div>
+					<div class="w3-col l3 m6">
+						<a href="#connect" class="w3-btn w3-white w3-block w3-hover-black side">Get in touch</a>
+					</div>
+				</div>
+			</div>
+	</div>
+
+	<!-- Bottom bar for mobile devices -->
+<div class="w3-row-padding w3-padding-small w3-container w3-border-top w3-light-grey w3-card-4 w3-bottom w3-center w3-hide-large w3-hide-medium">
+		<div class="w3-col s3 w3-border-right">
+			<a href="#about" class="w3-button w3-block side"><i class="fa fa-user w3-large"></i></a>
+		</div>
+		<div class="w3-col s3 w3-border-right">
+			<a href="#education" class="w3-button w3-block side"><i class="fa fa-pencil w3-large"></i></a>
+		</div>
+		<div class="w3-col s3 w3-border-right">
+			<a href="#skills" class="w3-button w3-block side"><i class="fa fa-asterisk w3-large"></i></a>
+		</div>
+		<div class="w3-col s3">
+			<a href="#connect" class="w3-button w3-block side"><i class="fa fa-share w3-large"></i></a>
+		</div>
+</div>
+
+<!-- A Modal Using Javascript DOM to display only image and info in large and medium devices -->
+	<div id="modal01" class="w3-modal w3-black w3-hide-small" style="display:none">
+			<span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" id="close">×</span>
+			<div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+				<img src="images/avinash.jpg" class="w3-image" alt="me">
+				<p id="caption" class="w3-opacity w3-large">Avinash.DV</p>
+				<p class="w3-opacity w3-large">Age:24</p>
+			</div>
+	</div>
+
+	<!-- About Section -->
+
+	<div class="w3-container w3-center contact" id="about">
+		<!-- Image on large and medium devices that is linked with dom -->
+		<div class="w3-container w3-center w3-hide-small">
+			<a href="#" id="cb"><img src="images/avinash.jpg" alt="me" class="w3-round-large w3-image me w3-card-4"></a>
+		</div>
+
+		<!-- Image on smaller devices not linked with dom -->
+		<div class="w3-container w3-center w3-hide-medium w3-hide-large">
+			<img src="images/avinash.jpg" alt="me" class="w3-round-large w3-image me w3-card-4">
+		</div>
+
+		<h2 style="margin-bottom:10px"><b>ABOUT ME</b></h2>
+
+			<p>I'm Avinash born on 24 sep 94, in vijayawada, Andhra Pradesh</p>
+			<p>I've completed my graduation from ALIET, vijayawada, AP</p>
+			<p> I was passionate about technology so trying to make it as my career.</p>
+
+
+		<!-- Hiding the hobbies on samller devices -->
+		<div class="w3-container hobby w3-hide-small">
+			<hr style="width:50%; margin: auto">
+			<h2 style="margin-bottom:10px"><b>My Hobbies</b></h2>
+			<div class="w3-row-padding">
+				<div class="w3-col l3 m6">
+					<p><i class="fa fa-gamepad"></i></p>
+					<p class="w3-large">Video Games</p>
+				</div>
+				<div class="w3-col l3 m6">
+					<p><i class="fa fa-music"></i></p>
+					<p class="w3-large">Listening Music</p>
+				</div>
+				<div class="w3-col l3 m6">
+					<p><i class="fa fa-mobile"></i></p>
+					<p class="w3-large">Technology</p>
+				</div>
+				<div class="w3-col l3 m6">
+					<p><i class="fa fa-paw"></i></p>
+					<p class="w3-large">Pet lover</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  <!-- Education Section -->
+  <div class="w3-container contact w3-light-grey w3-center" id="education">
+    <h2  style="margin-bottom:60px"><b>EDUCATION</b></h2>
+    <div class="w3-row-padding">
+
+      <div class="w3-col l4 m12 w3-card-2 w3-margin-bottom">
+        <i class="fa fa-graduation-cap w3-margin-bottom w3-margin-top w3-jumbo"></i>
+        <h4><b>B.TECH (ECE)</b></h4>
+        <p>I have done my graduation from ALIET in vijayawada Andhra Pradesh, I was 2016 passout with 74.8% from ECE branch.</p>
+      </div>
+
+      <div class="w3-col l4 m12 w3-card-2 w3-margin-bottom">
+        <i class="fa fa-book w3-margin-bottom w3-margin-top w3-jumbo"></i>
+        <h4><b>INTERMEDIATE</b></h4>
+        <p>I have done my intermediate from Narayana Junior College in vijayawada Andhra Pradesh with 90% from MPC branch.</p>
+      </div>
+
+      <div class="w3-col l4 m12 w3-card-2 w3-margin-bottom">
+        <i class="fa fa-university w3-margin-bottom w3-margin-top w3-jumbo"></i>
+        <h4><b>SCHOOL</b></h4>
+        <p>My schooling was done from St.Joseph's english medium high school in vijayawada Andhra Pradesh with 85% aggregate.</p>
+      </div>
+
+    </div>
+  </div>
+
+	<br><br><br>
+
+	<!-- Skills Section -->
+	<div class="w3-row w3-container w3-padding-64 w3-dark-grey" id="skills">
+			<div class="w3-col l6 m12 w3-center">
+				<h2 class="w3-xxlarge"><b>Skills :</b></h2>
+			</div>
+			<div class="w3-col l6 m12 w3-center">
+				<div class="w3-row-padding">
+					<div class="w3-col l4 m12"><h2>HTML</h2></div>
+					<div class="w3-col l4 m12"><h2>CSS</h2></div>
+					<div class="w3-col l4 m12"><h2>JavaScript</h2></div>
+				</div>
+			</div>
+	</div>
+
+	<br><br><br>
+
+  <!-- Connect Section -->
+	<footer class="w3-center w3-black w3-padding-64" id="connect">
+		<div class="w3-xlarge w3-section">
+			<p>Connect me:</p>
+		<a href="https://www.facebook.com/aviavinash07" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+		<a href="https://www.instagram.com/avinash_d77/?hl=en" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+		<a href="https://twitter.com/Avinashd10" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+		<a href="https://www.linkedin.com/in/avinash-d-1ba613b0/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+		</div>
+	</footer>
+
+<script type="text/javascript" src="portfolio.js"></script>
+</body>
+
+</html>
